@@ -3,9 +3,6 @@ import { Base_url } from "./helper";
 
 export const createSocketConnection=()=>{
 
-         return io(Base_url);     
-    // }
-    // else{
-    //     return io("/",{path:"/socket.io"})
-    // }
+
+    return io("/",{path:"/api/socket.io"});
 } 
